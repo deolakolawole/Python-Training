@@ -16,8 +16,11 @@
 
 sum = 0
 ## Type your answer here.
-
-
+number = [10,20,30,40,50,60]
+sum = 0
+for i in number:
+    sum = sum + i
+print sum
 
 
 
@@ -93,9 +96,12 @@ sum = 0
 p = int(input('Please enter the number of rows: '))
 q = int(input('Please enter the number of Hastags per row: '))
 ##Type your answer here.
-
-
-
+p = int(int("Please enter the number of rows:"))
+q = int(input("Please enter the number of Hashtags per row:"))
+for i in range (p):
+  print ""
+  for j in range (q)
+  print "#",
 
 
 
@@ -109,11 +115,9 @@ q = int(input('Please enter the number of Hastags per row: '))
 
 lst=["Ade", "Ada", "Chidi", "Ola", "Nkechi", "Emma", "Abdul"]
 ###Type your answer here.
-
-
-
-
-
+list = ["Ade", "Ada", "Chidi", "Ola", "Nkechi", "Emma", "Abdul"]
+for i in list:
+  print "Hello!,",i
 
 
 # Using a for loop and .append() method append each item with a Dr. prefix to the lst.
